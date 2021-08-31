@@ -13,3 +13,8 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+preferences.json
+src/icon
+co2signal.exe
+on_exit*
