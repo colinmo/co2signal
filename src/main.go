@@ -48,7 +48,7 @@ func onReady() {
 
 	// Display response
 	go func() {
-		systray.SetTemplateIcon(icon.AU, icon.AU)
+		systray.SetTemplateIcon(icon.Data, icon.Data)
 		title := fmt.Sprintf("%f%%", response.Data.FossilFuelPercentage)
 		systray.SetTitle(title)
 		systray.SetTooltip(title)
@@ -69,7 +69,7 @@ func onReady() {
 		mUpdate.Disable()
 
 		mQuit := systray.AddMenuItem("Quit", "Quit the whole app")
-		mQuit.SetIcon(icon.AU)
+		mQuit.SetIcon(icon.Data)
 
 		systray.AddSeparator()
 
